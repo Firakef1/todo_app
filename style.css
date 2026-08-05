@@ -12,7 +12,7 @@ header {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: "width" 100;
   text-align: center;
   border-bottom-left-radius: 1%;
   border-bottom-right-radius: 1%;
@@ -62,7 +62,7 @@ input {
   font-weight: bold;
 }
 
-#task_wraper {
+#task_wrapper {
   flex-wrap: wrap;
   flex-basis: 1;
   gap: 10px;
@@ -78,12 +78,12 @@ input {
   border-radius: 10px;
 }
 
-#btn_wraper {
+#btn_wrapper {
   display: flex;
   gap: 10px;
 }
 
-#btn_wraper button:first-child {
+#btn_wrapper button:first-child {
   border: none;
   background-color: rgb(159, 159, 244);
   padding: 5px 15px;
@@ -91,7 +91,7 @@ input {
   font-weight: bold;
 }
 
-#btn_wraper button:last-child {
+#btn_wrapper button:last-child {
   border: none;
   padding: 10px 20px;
   background-color: rgb(255, 30, 0);
@@ -100,24 +100,24 @@ input {
 
 #btn:hover,
 #edit:hover,
-#delet:hover {
+#delete:hover {
   cursor: pointer;
   opacity: 0.8;
 }
 
 #btn:active,
 #edit:active,
-#delet:active {
+#delete:active {
   opacity: 0.5;
 }
 
 @media (max-width: 900px) {
   #input_form,
-  #task_wraper {
+  #task_wrapper {
     width: 85%;
   }
 
-  #task_wraper {
+  #task_wrapper {
     font-size: medium;
   }
 
@@ -151,20 +151,20 @@ input {
     transform: none;
   }
 
-  #task_wraper {
+  #task_wrapper {
     width: 95%;
     font-size: 1rem;
     flex-direction: column;
     gap: 15px;
   }
 
-  #btn_wraper {
+  #btn_wrapper {
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  #btn_wraper button:first-child,
-  #btn_wraper button:last-child {
+  #btn_wrapper button:first-child,
+  #btn_wrapper button:last-child {
     width: 100%;
     max-width: 300px;
   }
